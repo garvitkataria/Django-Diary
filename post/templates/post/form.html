@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fourm</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<form action=" " method="post" class="form-horizontal" style="margin-left: 20%;">
+    {% csrf_token %}
+    <div class="control-label col-sm-1">
+    <h1>{{ form }}<h1>
+    
+    <input type="submit" class="btn btn-primary" style="padding: 20px;" />
+    </div>
+</form>
+
+</body>
+</html>
+
+

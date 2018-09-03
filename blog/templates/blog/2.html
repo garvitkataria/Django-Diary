@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>hello</h1>
+{% for i in object_list %}
+<h4>{{i.title}}</h4>
+<p>{{i.body}}</p>
+<h5> {{i.date|date:'d-m-Y '}} </h5>
+{% endfor %}
+</body>
+</html>
